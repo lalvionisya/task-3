@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cara Menampilkan Dan Menyembunyikan Element Dengan JavaScript</title>
+</head>
+<style>
+.container{
+background: #fff;
+width: 40%;
+margin:auto;	
+}	
+#elemen{
+background: #222;
+color: #fff;
+padding: 10px;	
+}
+button{
+background: blue;
+border-radius: 5px;
+padding: 10px;
+color:#fff;	
+}
+</style>
+<body>
+<div class="container">
+<button onclick="toggleElement()">Show/Hide</button>
+<div id="elemen">
+  Ini adalah contoh konten element toggle..
+</div> 
+</div>
+</body>
+<script>
+function toggleElement() {
+    var x = document.getElementById("elemen");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+} 	
+</script>
+</html>

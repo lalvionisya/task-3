@@ -1,0 +1,66 @@
+body {
+    background-color: pink;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.click button{
+    background-color: rgb(90, 76, 51);
+    color: beige;
+    height: 25px;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: calibri;
+    font-weight: bold;
+    border: none;
+}
+
+.produk h2 {
+    background-color: beige;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    height: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(90, 76, 51);
+}
+
+.tab-1 tr td {
+    width: 300px;
+    height: 250px;
+}
+
+.tab-1 h3 {
+    font-size: 25px;
+    font-family: calibri;
+    color: rgb(90, 76, 51);
+}
+
+.tab-1 p {
+    font-size: 16px;
+    font-family: calibri;
+    color: rgb(45, 37, 22);
+}
+
+.tab-1 button {
+    background-color: rgb(90, 76, 51);
+    color: beige;
+    height: 25px;
+    width: 90px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: calibri;
+    font-weight: bold;
+    border: none;
+}
+
+.produk img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
